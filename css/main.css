@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+button{
+	background-color: transparent;
+	border-radius: 2px;
+	border: none;
+	font-size: 16px;
+	height: 35px;
+	margin-bottom: 15px;
+	padding: 0.5rem;
+	width: 80%;
+}
+
+.success, .danger, .light{ color: #fff; }
+
+.primary{
+	background-color: #ede8e8;
+	color: #737373;
+}
+.success{ background-color: green; }
+.danger{ background-color: red; }
+.warning{
+	background-color: yellow;
+	color: #000;
+}
+.info{
+	background-color: cyan;
+	color: #0a0a8a;;
+}
+.light{ background-color: #737373; }
+
